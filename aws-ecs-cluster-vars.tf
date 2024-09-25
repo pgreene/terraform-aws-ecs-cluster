@@ -18,6 +18,11 @@ variable "setting" {
   default = null
 }
 
+variable "configuration" {
+  description = "(Optional) Configuration block."
+  default = null
+}
+
 variable "tags" {
   default = {}
 }
