@@ -15,7 +15,7 @@ variable "default_capacity_provider_strategy" {
 
 variable "setting" {
   description = "(Optional) Configuration block(s) with cluster settings. For example, this can be used to enable CloudWatch Container Insights for a cluster. Defined below."
-  default = false
+  default = null
 }
 
 variable "configuration" {
